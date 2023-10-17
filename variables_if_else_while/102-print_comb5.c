@@ -11,6 +11,7 @@ for (i = 0 ; i <= 99 ; i++)
 {
 for (j = i ; j <= 99 ; j++)
 {
+putchar(i);  
 putchar(i / 10 + '0');
 putchar(i % 10 + '0');
 putchar(' ');
