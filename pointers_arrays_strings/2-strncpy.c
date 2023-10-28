@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include "main.h"
 /**
- *_strncpy - update value.
- *@dest: value to be evaluate.
- *@src: value to be evaluate.
-  @n: bytes to be copied from source string
- *Return: not.
-*/
+ * _strncpy - copies string from source to destination
+ * @dest: destination string
+ * @src: source string to be copied
+ * @n: bytes to be copied from source string
+ *
+ * Return: destination string concatenated
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
