@@ -1,19 +1,17 @@
 #include "main.h"
 /**
-* print_rev - function returns the len of a string
-* @s: takes in a character
+* reverse_array - function returns reverse of array
+* @a: takes in a character
+* @n:take in a char
 * Return: void
 */
-void print_rev(char *s)
+void reverse_array(int *a, int n)
 {
 int len;
-for (len = 0; s[len] != '\0'; len++)
+int i;
+for (len = n - 1; len >= 0; len--)
 {
-
-}
-for (len = len - 1; len >= 0; len--)
-{
-_putchar(s[len]);
+_putchar(a[i]);
 }
 _putchar('\n');
 }
