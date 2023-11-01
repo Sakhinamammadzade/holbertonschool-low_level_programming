@@ -6,9 +6,17 @@
  */
 void _print_rev_recursion(char *s)
 {
+<<<<<<< HEAD
 if (*s)
 {
 _print_rev_recursion(s + 1);
 }
 _putchar('\n');
+=======
+if (*s != '\0')
+{
+_print_rev_recursion(s + 1);
+_putchar(*s);
+}
+>>>>>>> 714b8e677819868258d480be7a7a8bc0d9d6bf9f
 }
