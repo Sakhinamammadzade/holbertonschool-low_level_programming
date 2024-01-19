@@ -12,7 +12,7 @@ size_t i, left, right;
 if (array == NULL || value == 0)
 	return (-1);
 
-for (left = 0, right = (size - 1); left <= right; left++)
+for (left = 0, right = (size - 1); left <= right;)
 {
 		printf("Searching in array: ");
 		for (i = left; i < right; i++)
